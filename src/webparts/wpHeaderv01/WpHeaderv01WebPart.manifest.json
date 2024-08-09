@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "9ae538c6-ea01-4370-a076-8c4c29c06b67",
+  "alias": "WpHeaderv01WebPart",
+  "componentType": "WebPart",
+
+ "version": "*",
+  "manifestVersion": 2,
+
+ "requiresCustomScript": false,
+  "supportsFullBleed": true, 
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "wpHeaderv01" },
+    "description": { "default": "wpHeaderv01 description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "wpHeaderv01",
+      "text01": "Text 1",
+      "text02": "Text 2",
+      "text03": "Text 3",
+      "subtitle01": "Subtitle 1",
+      "subtitle02": "Subtitle 2",
+      "subtitle03": "Subtitle 3"
+    }
+  }]
+}

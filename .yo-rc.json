@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "18.20.3",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "spfx-intranet-01",
+    "libraryId": "d3386ef2-9367-4522-b915-c46534fede33",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-intranet-01",
+    "solutionShortDescription": "spfx-intranet-01 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

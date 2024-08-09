@@ -1,0 +1,56 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.wpAppsv01 {
+  overflow: hidden;
+  padding: 1em; 
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+
+  .wpAppsv01_items{
+    display: grid;
+    gap: 10px; //separacion 
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+
+      .wpAppsv01_item{
+
+        .wpAppsv01_circle{
+          width: 60px;
+          height: 60px;
+          background-color: #122d47;
+          color: #fff;
+          border-radius: 50%;
+          display: flex;
+          font-size: 30px;
+          align-items: center;
+          justify-content: center;
+          margin: auto;
+          transition: background-color 0.3s, transform 0.3s; /* Transiciones para suavizar el efecto */
+
+          &:hover {
+            background-color: #1d4b73; /* Nuevo color al pasar el ratón */
+            transform: scale(1.1); /* Aumenta el tamaño ligeramente */
+            cursor: pointer; /* Cambia el cursor a pointer */
+          }
+
+        }
+
+        .wpAppsv01_text{
+          color: #555;
+          font-size: 14px;
+          // font-weight: bold;
+          padding: 5px 0;
+          text-align: center;
+          width: 100%;
+          transition: color 0.3s; /* Transición para el color del texto */
+
+          &:hover {
+            color: #122d47; /* Nuevo color del texto al pasar el ratón */
+            cursor: pointer; /* Cambia el cursor a pointer */
+          }
+
+        }
+
+      }
+  }
+}

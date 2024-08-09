@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-intranet-01-client-side-solution",
+    "id": "d3386ef2-9367-4522-b915-c46534fede33",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-intranet-01 description"
+      },
+      "longDescription": {
+        "default": "spfx-intranet-01 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-intranet-01 Feature",
+        "description": "The feature that activates elements of the spfx-intranet-01 solution.",
+        "id": "42ed8d1c-6241-4a10-841b-99346249d844",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-intranet-01.sppkg"
+  }
+}
